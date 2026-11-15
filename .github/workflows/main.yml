@@ -19,7 +19,7 @@ jobs:
         with:
           github_user_name: FernandaLimatech
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%23F0A5FF&color_dots=%23160B2B,%234B286B,%237B4BA5,%23B983FF,%23E6CCFF
+            dist/github-contribution-grid-snake.svg?color_snake=%23F0A5FF&color_dots=%23FFFFFF10,%23C9A7F5,%23A875D7,%237B4BA5,%234B286B
 
       - name: Publish animation
         uses: crazy-max/ghaction-github-pages@v4

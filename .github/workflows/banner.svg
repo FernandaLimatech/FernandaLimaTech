@@ -1,0 +1,101 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#160B2B"/>
+      <stop offset="45%" stop-color="#48216F"/>
+      <stop offset="100%" stop-color="#170B35"/>
+    </linearGradient>
+
+    <radialGradient id="nebula">
+      <stop offset="0%" stop-color="#D8A7FF" stop-opacity=".55"/>
+      <stop offset="55%" stop-color="#9B55E8" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#6D28D9" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#B77AFF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#E6CCFF"/>
+      <stop offset="1" stop-color="#B77AFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo galáctico -->
+  <rect width="1200" height="230" rx="15" fill="url(#bg)"/>
+
+  <ellipse cx="240" cy="50" rx="300" ry="130" fill="url(#nebula)"/>
+  <ellipse cx="920" cy="180" rx="370" ry="170" fill="url(#nebula)"/>
+  <ellipse cx="600" cy="100" rx="330" ry="120" fill="url(#nebula)"/>
+
+  <!-- Estrelas -->
+  <g fill="#FFFFFF">
+    <circle cx="70" cy="35" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="90" r="1.5"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="310" cy="25" r="2"/>
+    <circle cx="420" cy="55" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="30" r="1.5"/>
+    <circle cx="690" cy="45" r="2"><animate attributeName="opacity" values="1;.2;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="810" cy="25" r="1.5"/>
+    <circle cx="960" cy="65" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="35" r="1.5"/>
+    <circle cx="1140" cy="110" r="2"><animate attributeName="opacity" values="1;.2;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="100" cy="160" r="1.5"/>
+    <circle cx="260" cy="190" r="2"/>
+    <circle cx="420" cy="175" r="1.5"/>
+    <circle cx="780" cy="185" r="2"/>
+    <circle cx="1040" cy="170" r="1.5"/>
+    <circle cx="1150" cy="205" r="1.5"/>
+  </g>
+
+  <!-- Brilhos -->
+  <g stroke="#EBD6FF" stroke-width="1.5" opacity=".8">
+    <path d="M150 65 V77 M144 71 H156"/>
+    <path d="M1030 90 V106 M1022 98 H1038"/>
+    <path d="M880 35 V45 M875 40 H885"/>
+    <path d="M350 150 V162 M344 156 H356"/>
+  </g>
+
+  <!-- Detalhes tecnológicos -->
+  <g fill="none" stroke="#C69AFF" opacity=".3" stroke-width="1.2">
+    <path d="M0 115 H55 L75 95 H120"/>
+    <path d="M1200 75 H1150 L1130 95 H1090"/>
+    <path d="M0 185 H65 L85 165 H130"/>
+    <path d="M1200 155 H1140 L1120 175 H1070"/>
+  </g>
+
+  <!-- Nome -->
+  <text x="600" y="88"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="57"
+        font-weight="bold"
+        letter-spacing="7"
+        fill="#F5E9FF">FERNANDA</text>
+
+  <!-- Linha divisória -->
+  <path d="M300 108 H900" stroke="url(#line)" stroke-width="1"/>
+
+  <!-- Formação -->
+  <text x="600" y="139"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        font-weight="600"
+        letter-spacing="1.2"
+        fill="#EBD9FF">ESTUDANTE DE ADS | DESENVOLVEDORA EM CONSTRUÇÃO</text>
+
+  <!-- Frase final -->
+  <text x="600" y="180"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="19"
+        font-weight="500"
+        fill="#E7C9FF">Transformando ideias em código ✨</text>
+
+  <!-- Onda inferior -->
+  <path d="M0 205 Q300 180 600 207 T1200 195 V230 H0 Z"
+        fill="#9B65D0" opacity=".4"/>
+
+  <path d="M0 214 Q300 190 600 216 T1200 205"
+        fill="none" stroke="#D7B4FF" stroke-width="1.5" opacity=".8"/>
+</svg>
